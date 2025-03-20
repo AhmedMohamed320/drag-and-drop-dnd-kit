@@ -238,7 +238,7 @@ export default function Home() {
         collisionDetection={closestCenter}
         onDragEnd={handleDragEnd}
       >
-        <main className="grid grid-cols-3 gap-4 w-full max-w-7xl mx-auto px-4 pb-4 min-h-0">
+        <main className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-7xl mx-auto px-4 pb-4 min-h-0">
           <div className="col-span-1 border border-gray-500 rounded-lg px-4 py-2 h-fit">
             <TypeList
               items={typeList}
